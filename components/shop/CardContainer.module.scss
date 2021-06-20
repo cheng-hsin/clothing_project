@@ -1,0 +1,62 @@
+.cardContainer {
+  max-width: 80%;
+  margin: 3rem auto 5rem auto;
+  display: grid;
+  //grid自適應畫面
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 20rem));
+  grid-gap: 3rem;
+  justify-content: center;
+}
+.title {
+  color: #824c31;
+  max-width: 80%;
+  margin: 1rem auto 0.2rem auto;
+  display: grid;
+  text-transform: capitalize;
+  //grid自適應畫面
+  justify-content: center;
+  font-family: 'Niconne', cursive;
+  font-weight: 700;
+  font-size: 4rem;
+  text-shadow: 3px 3px 0px #fa6161, 5px 5px 0px #fcf6cd, 8px 8px 0px #faab5d,
+    10px 10px 0px #00b3ec, 12px 12px 0px #de0716;
+}
+
+/* react-paginate */
+$anpanman-red: #fa6161;
+$anpanman-yellow: #fcf6cd;
+$anpanman-orange: #faab5d;
+$anpanman-blue: #00b3ec;
+.paginationBttns {
+  width: 100%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+  a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 15px;
+    border: 2px solid $anpanman-orange;
+    color: $anpanman-orange;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: white;
+    background-color: $anpanman-orange;
+  }
+}
+
+.paginationActive a {
+  color: white;
+  background-color: $anpanman-orange;
+}
+
+.paginationDisabled a {
+  color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #ffffff00;
+  display: none;
+}
