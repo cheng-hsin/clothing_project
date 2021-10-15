@@ -1,3 +1,6 @@
+### vercel URL
+https://clothing-project.vercel.app/
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -19,8 +22,6 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 ## Learn More
-### vercel URL
-https://clothing-project.vercel.app/
 
 To learn more about Next.js, take a look at the following resources:
 
